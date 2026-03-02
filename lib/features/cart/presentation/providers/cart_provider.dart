@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../../domain/domain/entities/product.dart';
-import '../../../../domain/domain/repositories/cart_repository.dart';
+import '../../domain/entities/product.dart';
+import '../../domain/repositories/cart_repository.dart';
 
 class CartProvider extends ChangeNotifier {
   final CartRepository repository;
