@@ -1,5 +1,5 @@
-import '../../../../domain/domain/entities/product.dart';
-import '../../../../domain/domain/repositories/cart_repository.dart';
+import '../../domain/entities/product.dart';
+import '../../domain/repositories/cart_repository.dart';
 
 class CartRepositoryImpl implements CartRepository {
   final List<Product> items = [];
