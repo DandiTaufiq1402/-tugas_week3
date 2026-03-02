@@ -1,4 +1,4 @@
-import '../entities/product.dart';
+import '../../../../domain/entities/entities/product.dart';
 
 abstract class CartRepository {
   List<Product> getCartItems();
